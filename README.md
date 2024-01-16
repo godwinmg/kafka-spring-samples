@@ -1,6 +1,5 @@
 ### kafka-spring-samples
 
-- Support Standard Markdown / CommonMark and GFM(GitHub Flavored Markdown);
 This Project is created for trying the Kafka Integration with Spring using Docker in local. This project is intended for local execution and strictly for learning purposes only.
 
 
