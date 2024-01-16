@@ -16,10 +16,10 @@ This Project is created for trying the Kafka Integration with Spring using Docke
 - After the install, download the platform specific docker desktop version from docker website
 https://docs.docker.com/desktop/install/linux-install/
 
-Since I am using a Debian based Pop OS, I downloaded the  debian package.
+Since I am using a Debian based Pop OS, I downloaded the  debian package. \ 
 `sudo apt-get install ./docker-desktop-4.26.1-amd64.deb`
 
-- Next we need to add some privillages to enable file sharing 
-` grep "$USER" /etc/subuid >> /dev/null 2&>1 || (echo "$USER:100000:65536" | sudo tee -a /etc/subuid)`
- `grep "$USER" /etc/subgid >> /dev/null 2&>1 || (echo "$USER:100000:65536" | sudo tee -a /etc/subgid)`
+- Next we need to add some privillages to enable file sharing \ 
+` grep "$USER" /etc/subuid >> /dev/null 2&>1 || (echo "$USER:100000:65536" | sudo tee -a /etc/subuid)` \ 
+ `grep "$USER" /etc/subgid >> /dev/null 2&>1 || (echo "$USER:100000:65536" | sudo tee -a /etc/subgid)` \ 
 - After this, you can check the program files to find the Docker Desktop application and start it.
